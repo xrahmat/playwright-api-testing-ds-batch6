@@ -1,36 +1,23 @@
 {
-    
-    "type": "object",
-    "properties": {
-      "name": {
-        "type": "string"
-      },
-      "data": {
-        "type": "object",
-        "properties": {
-          "year": {
-            "type": "integer"
-          },
-          "price": {
-            "type": "number"
-          },
-          "CPU model": {
-            "type": "string"
-          },
-          "Hard disk size": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "year",
-          "price",
-          "CPU model",
-          "Hard disk size"
-        ]
-      }
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
     },
-    "required": [
-      "name",
-      "data"
-    ]
-  }
+    "job": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "job",
+    "id",
+    "createdAt"
+  ]
+}
